@@ -1,0 +1,88 @@
+body {
+    /* CONCEPTO: GRADIENTE (Fondo degradado) 
+       linear-gradient crea una transición suave entre colores. 
+       "to bottom" indica que va de arriba hacia abajo.
+       Usa colores hexadecimales (códigos con #). 
+       Podés crear tus propios gradientes y pegarlos en el sitio https://cssgradient.io/ */
+    background: linear-gradient(to bottom, #f8f6f8, #cdc9fa);
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif; /* Tipo de letra principal */
+    
+    /* CONCEPTO: MARGIN Y PADDING BÁSICOS 
+       Los navegadores ponen un pequeño margen por defecto. 
+       Con esto lo dejamos en cero para controlar nosotros los espacios. */
+    margin: 0; 
+    padding: 0;
+    
+    color: #333333; /* Color del texto */
+}
+.encabezado {
+    background-image: url('../imagenes/textura-fondo.jpg');
+    background-repeat: no-repeat; 
+    background-size: 470px;
+    text-align: center;
+    padding: 40px 10px;
+    background-position-x: center;
+    color: rgb(212, 5, 5); 
+    background-color: #1e3a8a;
+}
+.titulo-principal {
+    font-weight: bold;
+    font-size: 60px;   
+    margin-bottom: 0; 
+}
+.navegacion {
+    background-color: #bf1650; 
+    text-align: center; 
+}
+.navegacion a {
+    display: inline-block;
+    color: white;
+    text-decoration: none; 
+    padding: 15px 25px;
+    font-weight: bold;
+}
+.navegacion a:hover {
+    background-color: #9d1242; 
+}
+.contenido-principal {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 0 20px;
+}
+.caja-informacion {
+    background-color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+.caja-destacada {
+    background-color: #e98afe; 
+    padding: 20px;
+    border-left: 5px solid #5704ca; 
+    margin-bottom: 20px;
+}
+.imagen-centrada {
+    max-width: 100%; 
+    border: 3px solid #333; 
+}
+.boton-enlace {
+    background-color: #2563eb; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin-top: 10px; 
+}
+.boton-enlace:hover {
+    background-color: #1d4ed8;
+}
+.pie-pagina {
+    text-align: center; 
+    background-color: #333333; 
+    color: white;
+    padding: 15px;
+    margin-top: 40px; 
+}
